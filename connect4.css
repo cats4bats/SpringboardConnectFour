@@ -7,31 +7,24 @@
 }
 
 /* pieces are div within game table cells: draw as colored circles */
-.p1{
-  background-color: red;
-
-}
-.p2{
-  background-color: blue;
-}
 
 .piece {
-  /* TODO: make into circles */
   margin: 5px;
   width: 80%;
   height: 80%;
   border-radius: 50%;
-  
-}
-
-div.piece{
-  position: relative;
-  animation-duration: 0.2s;
   animation-name: fall-down;
+  animation-duration: 1s;
+  position: relative;
 }
 
+.piece.p1 {
+  background-color: red;
+}
 
-/* TODO: make pieces red/blue,  depending on player 1/2 piece */
+.piece.p2 {
+  background-color: blue;
+}
 
 /* column-top is table row of clickable areas for each column */
 
@@ -43,14 +36,67 @@ div.piece{
   background-color: gold;
 }
 
+@font-face {
+  font-family: "Valorant";
+  src: url("Valorant.eot");
+  src: url("Valorant.woff") format("woff"),
+    url("Valorant.otf") format("opentype"),
+    url("Valorant.svg#filename") format("svg");
+}
+
+button {
+  font-family: "Valorant";
+  padding: 8px;
+  font-size:medium;
+  cursor: pointer;
+  justify-content: center;
+  margin:auto;
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-family: "Valorant";
+}
+
+label {
+  font-family: "Valorant";
+  padding: 10px;
+  font-size:x-large;
+  margin: 10px;
+  display: inline-block;
+}
+
+input{
+  display: block;
+}
+
+body{
+  background-color: #FFFBF5;
+}
+
+
+#game{
+  justify-content: center;
+  margin:auto;
+  display: block;
+  width: fit-content;
+}
+
+#board{
+  justify-content: center;
+  margin:auto;
+  display: block;
+  width: fit-content;
+}
+
 @keyframes fall-down {
   from {
-      opacity: 0;
-      top: -100px;
+      top: -700%;
 }
 
   to {
-      opacity: 1;
       top: 0px;
   }
 }

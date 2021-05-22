@@ -4,10 +4,48 @@
   <link href="connect4.css" rel="stylesheet">
 </head>
 <body>
+  <h1>Connect 4</h1>
+  <div id="game">
+    <section>
+      <label for="player1" id = "p1"><h3>PLAYER 1</h3></label>
+      <select name="player1" id="player1">
+        <option value="breach">breach</option>
+        <option value="brimstone">brimstone</option>
+        <option value="cypher">cypher</option>
+        <option value="jett">jett</option>
+        <option value="killjoy">killjoy</option>
+        <option value="omen">omen</option>
+        <option value="pheonix">pheonix</option>
+        <option value="raze">raze</option>
+        <option value="reyna">reyna</option>
+        <option value="sage">sage</option>
+        <option value="sova">sova</option>
+        <option value="reyna">viper</option>
+        <option value="sage">yoru</option>
+      </select>
+    
+      <label for="player2" id="p2"><h3>PLAYER 2</h3></label>
+    
+      <select name="player2" id="player2">
+        <option value="breach">breach</option>
+        <option value="brimstone">brimstone</option>
+        <option value="cypher">cypher</option>
+        <option value="jett">jett</option>
+        <option value="killjoy">killjoy</option>
+        <option value="omen">omen</option>
+        <option value="pheonix">pheonix</option>
+        <option value="raze">raze</option>
+        <option value="reyna">reyna</option>
+        <option value="sage">sage</option>
+        <option value="sova">sova</option>
+        <option value="reyna">viper</option>
+        <option value="sage">yoru</option>
+      </select>
+    </section>
+    <table id="board"></table>
+  </div>
 
-<div id="game">
-  <table id="board"></table>
-</div>
+  <button id='start'><strong>Start / Restart</strong></button>
 
 <script src="connect4.js"></script>
 
