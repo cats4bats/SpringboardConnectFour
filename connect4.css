@@ -38,10 +38,10 @@
 
 @font-face {
   font-family: "Valorant";
-  src: url("./Valorant.eot");
-  src: url("./Valorant.woff") format("woff"),
-    url("./Valorant.otf") format("opentype"),
-    url("./Valorant.svg#filename") format("svg");
+  src: url("../SpringboardConnectFour/Valorant.eot");
+  src: url("../SpringboardConnectFour/Valorant.woff") format("woff"),
+    url("../SpringboardConnectFour/Valorant.otf") format("opentype"),
+    url("../SpringboardConnectFour/Valorant.svg#filename") format("svg");
 }
 
 button {
