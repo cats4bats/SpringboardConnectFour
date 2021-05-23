@@ -39,7 +39,7 @@
 @font-face {
   font-family: "Valorant";
   src: url("../SpringboardConnectFour/Valorant.eot");
-  src: url("../SpringboardConnectFour/Valorant.woff") format("woff"),
+  src: url("https://github.com/cats4bats/SpringboardConnectFour/blob/master/VALORANT.woff") format("woff"),
     url("../SpringboardConnectFour/Valorant.otf") format("opentype"),
     url("../SpringboardConnectFour/Valorant.svg#filename") format("svg");
 }
