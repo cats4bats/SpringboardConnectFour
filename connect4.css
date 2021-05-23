@@ -38,10 +38,10 @@
 
 @font-face {
   font-family: "Valorant";
-  src: url("/Valorant.eot");
-  src: url("/Valorant.woff") format("woff"),
-    url("/Valorant.otf") format("opentype"),
-    url("/Valorant.svg#filename") format("svg");
+  src: url("../Valorant.eot");
+  src: url("../Valorant.woff") format("woff"),
+    url("../Valorant.otf") format("opentype"),
+    url("../Valorant.svg#filename") format("svg");
 }
 
 button {
